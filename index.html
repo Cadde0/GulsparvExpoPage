@@ -1,0 +1,207 @@
+<!-- trunk-ignore-all(prettier) -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulsparv Info Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img
+          class="logo-picture"
+          src="https://yelvertoftpocketpark.org/wp-content/uploads/2023/06/Yellowhammer-Recording-wildlife-01.png"
+          alt="Sprout View Logo"
+        />
+        Team Gulsparv
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#desktop-nav">Home</a></li>
+          <li><a href="#sprints">Sprints</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Get in touch!</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="phone-nav">
+      <div class="logo">Gulsparv</div>
+      <div class="phone-menu">
+        <div class="phone-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#sprints" onclick="toggleMenu()">Sprints</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Get in touch!</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="home-container">
+        <h1>
+          <span class="header-text">Our Product</span>
+        </h1>
+        <div class="text-container">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sint
+            libero nesciunt quis sit neque rem enim, molestiae quod quo eveniet
+            maiores est quas blanditiis! Maxime quod natus doloremque nesciunt!
+          </p>
+        </div>
+        <div class="front-image-container">
+          <img
+            class="front-image"
+            src="https://s3-alpha-sig.figma.com/img/f40b/a62f/25992e6d2ebb243de428522052f52e1e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W-4v4GneuDDGcBIaiXj4XT0drASC0jQEmf8vpHI~EgzIJ67895ZyCY4uEA5LCAiu51kFiCvVU5pMzB1XJnKvWgq7CfFQbLqzCbDFspIgzAqDv-0BIBKoGIS5Cd~WmMdNHAqeiF86TbMqgBsY4saGlZWUzg4-c-hkZLWdZvXi3gEBz3oZH1GmumEk9dJiqeuvdGBgNAvZJA3n767QaAmGX-oDBxDRiR~C4UNSbnGhUAoRoKqOTbUSmg9edwSFKQMSQgxd~muUIAp5MHl7ar~40BuDh-0sH9L17-VVQ-A3OcHiDoqhCxvwN5fzAILXolkcfRtJkYl5D55EpkkXFn~iiQ__"
+            alt="front image"
+          />
+        </div>
+        <div class="cta-container">
+          <a class="cta-button" href="https://sproutview.netlify.app/">
+            Go to Sprout View
+            <img
+              class="icon"
+              src="./assets/sproutviewIcon.png"
+              alt="Sprout View Logo"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="tutorial">
+      <div class="tut-container">
+        <h1><span class="header-text tut-header">Tutorial</span></h1>
+        <div class="tut-steps">
+          <div class="steps">
+            <div>
+              <img
+                class="tut-pic"
+                src="https://s3-alpha-sig.figma.com/img/4a02/b583/56bdd16c9d8f6102a4ddf2c4db0ca519?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oebzWAEIHS5BT6kktWqsr6yvYDWuMAKfRgX-p32qJgMBJbEJwBCt9bDQnI-Tc3XXKgUlinDjPuOXhSvi4S57xq30urfX-D2EAkeznZDB0ctae8lCwusKfMR7ISEo6cL1Bv-ykwg9ZusPVqnEqG7oo5U45AwGXsuyw5cudiwnnvfkYLeZN0wrfjDCaqm0ML4NyOq6BOC710OOnnbt3yeTg8aCnZLVKcIJ7x1Fld8QVelPps9CHlseOZE~dKfc-exVnPhNSSy~6cC8Eo~q4xzye2EU66nneqJdxQx8QIKl2v4tLaHVYcqI9ma2QuOuWptIQejQeRun0NuHIkV01u3zaA__"
+                alt="hand-plant"
+              />
+            </div>
+            <div>
+              <h2>Step 1</h2>
+              <p>Choose your plant</p>
+            </div>
+            <div>
+              <h2>Step 2</h2>
+              <p>Choose your environment</p>
+            </div>
+            <div>
+              <h2>Step 3</h2>
+              <p>Start planting!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sprints">
+      <h1>
+        <span class="header-text">Sprints</span>
+      </h1>
+      <div class="sprint-container">
+        <div class="sprint-box">
+          <h1>Sprint 1</h1>
+          <ul>
+            <li>Set up server</li>
+            <li>User selects plant</li>
+            <li>User selects environment options</li>
+            <li>User gets a correct discreet timeline</li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+        <div class="sprint-box">
+          <h3>Sprint 2</h3>
+          <ul>
+            <li>Description item 1</li>
+            <li>Description item 2</li>
+            <li>Description item 3</li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+        <div class="sprint-box">
+          <h3>Sprint 3</h3>
+          <ul>
+            <li>Description item 1</li>
+            <li>Description item 2</li>
+            <li>Description item 3</li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+        <div class="sprint-box">
+          <h3>Sprint 4</h3>
+          <ul>
+            <li>Description item 1</li>
+            <li>Description item 2</li>
+            <li>Description item 3</li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-content">
+        <div>
+          <h1><span class="header-text">About Us</span></h1>
+          <div class="about-text">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+              exercitationem eaque quae natus, ipsum nemo? Delectus unde sit
+              velit accusamus molestias aspernatur repudiandae, quam ex corrupti
+              suscipit dolore officiis. Beatae.
+            </p>
+          </div>
+        </div>
+        <div id="team-container" class="image-container"></div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <h1><span class="header-text">Contact Us</span></h1>
+        <form id="contact-form" method="post" action="send_form?">
+          <input
+            type="text"
+            name="first_name"
+            placeholder="First Name"
+            required
+          /><br />
+          <input
+            type="text"
+            name="last_name"
+            placeholder="Last Name"
+            required
+          /><br />
+          <input type="email" name="email" placeholder="Email" required /><br />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea
+          ><br />
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#desktop-nav">Home</a></li>
+            <li><a href="#sprints">Sprints</a></li>
+            <li><a href="#team">The team</a></li>
+            <li><a href="#contact">Get in touch</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Team Gulsparv. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
