@@ -165,27 +165,12 @@
     <section id="contact">
       <div>
         <h1><span class="header-text">Contact Us</span></h1>
-        <form id="contact-form" method="post" action="send_form?">
-          <input
-            type="text"
-            name="first_name"
-            placeholder="First Name"
-            required
-          /><br />
-          <input
-            type="text"
-            name="last_name"
-            placeholder="Last Name"
-            required
-          /><br />
-          <input type="email" name="email" placeholder="Email" required /><br />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            required
-          ></textarea
-          ><br />
-          <input type="submit" value="Send" />
+        <form id="contact-form" method="post" action="send_form?" data-netlify="true" name="contact">
+            <input type="text" name="first_name" placeholder="First Name" required /><br />
+            <input type="text" name="last_name" placeholder="Last Name" required /><br />
+            <input type="email" name="email" placeholder="Email" required /><br />
+            <textarea name="message" placeholder="Your Message" required></textarea><br />
+            <input type="submit" value="Send" />
         </form>
       </div>
     </section>
@@ -195,7 +180,7 @@
           <ul class="nav-links">
             <li><a href="#desktop-nav">Home</a></li>
             <li><a href="#sprints">Sprints</a></li>
-            <li><a href="#team">The team</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Get in touch</a></li>
           </ul>
         </div>
