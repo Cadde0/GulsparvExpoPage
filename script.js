@@ -8,7 +8,7 @@ function toggleMenu() {
 const teamMembers = [
   {
     name: "Fatima",
-    role: "Chefen",
+    role: "Product Owner",
     imageUrl:
       "https://static.vecteezy.com/system/resources/previews/024/822/642/original/cute-cartoon-sunflower-isolated-on-transparent-background-ai-generated-digital-illustration-png.png",
   },
@@ -26,7 +26,7 @@ const teamMembers = [
   },
   {
     name: "Oscar",
-    role: "Den super snälla, vackra och roliga",
+    role: "Developer",
     imageUrl:
       "https://i.pinimg.com/originals/70/5d/ee/705dee71a624137356a93efa53267977.png",
   },
@@ -87,4 +87,7 @@ function renderTeamMembers() {
 }
 
 // Call the function to render team members
-renderTeamMembers();  
+renderTeamMembers();
+
+
+  
