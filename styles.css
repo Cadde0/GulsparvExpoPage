@@ -55,6 +55,10 @@ nav {
 
 /*Phone Opt*/
 
+#phone-footer-nav {
+    display: none;
+}
+
 #phone-nav {
   display: none;
 }
@@ -312,7 +316,7 @@ section:last-child {
   border: 1px solid #dddddd;
   padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
 
@@ -321,12 +325,12 @@ section:last-child {
     text-align: center;
 }
 .sprint-box h3 {
-  margin-bottom: 10px;
-  font-size: 2rem;
+  margin-bottom: 4px;
+  font-size: 1.4rem;
 }
 
 .sprint-box li {
-    padding: 5px;
+    padding: 4px;
   font-size: 1rem;
 }
 
@@ -463,6 +467,10 @@ section:last-child {
 
   #about .arrow-icon {
     bottom: -298vh;
+  }
+
+  #phone-footer-nav {
+    padding: 20px;
   }
 
   .Copyright {

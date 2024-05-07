@@ -5,6 +5,14 @@
   #phone-nav {
     display: flex;
   }
+
+  #desktop-footer-nav {
+    display: none;
+  }
+
+  #phone-footer-nav {
+    display: flex;
+  }
   .arrow-icon {
     display: none;
   }
@@ -108,5 +116,9 @@
 
   .nav-links {
     font-size: 1rem;
+  }
+
+  .Copyright {
+    font-size: 0.5rem;
   }
 }
