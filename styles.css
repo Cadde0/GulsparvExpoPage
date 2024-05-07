@@ -330,6 +330,10 @@ section:last-child {
   font-size: 1rem;
 }
 
+.sprint-pic {
+    height: 30vh;
+}
+
 /* About Section */
 
 #about {
