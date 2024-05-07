@@ -88,6 +88,3 @@ function renderTeamMembers() {
 
 // Call the function to render team members
 renderTeamMembers();
-
-
-  
