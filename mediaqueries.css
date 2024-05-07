@@ -72,11 +72,12 @@
   }
 
   .sprint-box h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .sprint-box li {
-    font-size: 0.75rem;
+    padding: 2.5px;
+    font-size: 0.6rem;
   }
 
   .sprint-pic {
