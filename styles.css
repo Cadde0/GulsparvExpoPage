@@ -447,5 +447,20 @@ section:last-child {
     height: 4rem;
     position: absolute;
     right: 2vw;
+  }
+
+  #home .arrow-icon {
     bottom: 2vh;
+  }
+
+  #tutorial .arrow-icon {
+    bottom: -98vh;
+  }
+
+  #sprints .arrow-icon {
+    bottom: -198vh;
+  }
+
+  #about .arrow-icon {
+    bottom: -298vh;
   }
