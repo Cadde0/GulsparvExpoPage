@@ -45,13 +45,13 @@ const teamMembers = [
   {
     name: "Emil",
     role: "Developer",
-    imageUrl: "https://cdn-icons-png.freepik.com/512/6813/6813248.png",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/1230115905745457274/1239541623541600266/food-cartoon-illustration_23-2150756605.jpg?ex=66434c98&is=6641fb18&hm=3a78e1e15d08c4d36e0b7949523f62e62855e3dd01613e185ee3bfbf745eea50&",
   },
   {
     name: "Isac",
     role: "Developer",
-    imageUrl:
-      "https://www.creativefabrica.com/wp-content/uploads/2021/02/14/Kawaii-Cute-Carrot-Vegetable-Graphics-8601699-1.png",
+    imageUrl: "./assets/3Dcarrot.png",
   },
 ];
 
